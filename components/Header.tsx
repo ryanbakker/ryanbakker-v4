@@ -1,6 +1,5 @@
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
-import { Button } from "./ui/button";
 import { FolderCode, Github, MailPlus } from "lucide-react";
 
 function Header() {

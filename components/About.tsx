@@ -17,8 +17,8 @@ function About() {
             I&apos;ve been coding since I was thirteen, starting out with HTML
             and CSS in Notepad++. These days, I&apos;ve got two development
             diplomas under my belt and I&apos;m currently working toward a
-            Bachelor's in Computer Science, with plans to major in data science
-            so I can dive deeper into algorithms and big data.
+            Bachelor&apos;s in Computer Science, with intentions to major in
+            data science so I can dive deeper into algorithms and big data.
             <br />
             <br />
             When I&apos;m not glued to a screen and running on a concerning

@@ -14,19 +14,19 @@ function About() {
         <div>
           <p className="mt-8 opacity-70 max-w-[46rem]">
             Welcome to the website of a generalist with just a sprinkle of ADHD.
-            I've been coding since I was thirteen, starting out with HTML and
-            CSS in Notepad++. These days, I've got two development diplomas
-            under my belt and I'm currently working toward a Bachelor's in
-            Computer Science, with plans to major in data science so I can dive
-            deeper into algorithms and big data.
+            I&apos;ve been coding since I was thirteen, starting out with HTML
+            and CSS in Notepad++. These days, I&apos;ve got two development
+            diplomas under my belt and I&apos;m currently working toward a
+            Bachelor's in Computer Science, with plans to major in data science
+            so I can dive deeper into algorithms and big data.
             <br />
             <br />
-            When I'm not glued to a screen and running on a concerning amount of
-            caffeine, you'll probably find me outdoors — camping, hiking, or
-            mountain biking. (This is starting to sound like a dating app bio,
-            isn't it?) I also enjoy photography, and drawing — badly. But hey,
-            it's a creative outlet. Thanks for reading the About section of a
-            potentially crazy person.
+            When I&apos;m not glued to a screen and running on a concerning
+            amount of caffeine, you&apos;ll probably find me outdoors — camping,
+            hiking, or mountain biking. (This is starting to sound like a dating
+            app bio, isn&apos;t it?) I also enjoy photography, and drawing —
+            badly. But hey, it&apos;s a creative outlet. Thanks for reading the
+            About section of a potentially crazy person.
           </p>
 
           <ul className="flex flex-row gap-5 mt-8">

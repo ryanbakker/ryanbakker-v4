@@ -1,6 +1,7 @@
 import { MoveRight } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 function Projects() {
   return (
@@ -21,7 +22,12 @@ function Projects() {
                   className="hover:scale-[1.006] transition-transform"
                 >
                   <div className="image-wrapper">
-                    <img src="/projects/project1.png" alt="project one" />
+                    <Image
+                      src="/projects/project1.png"
+                      alt="project one"
+                      width={800}
+                      height={800}
+                    />
                   </div>
                   <div className="text-content">
                     <h2>
@@ -44,7 +50,12 @@ function Projects() {
                 >
                   <div className="project">
                     <div className="image-wrapper bg-neutral-800">
-                      <img src="/projects/project1.png" alt="project two" />
+                      <Image
+                        src="/projects/project1.png"
+                        alt="project two"
+                        width={800}
+                        height={800}
+                      />
                     </div>
                     <h2>Library Management Platform</h2>
                   </div>
@@ -56,7 +67,12 @@ function Projects() {
                 >
                   <div className="project">
                     <div className="image-wrapper bg-neutral-800">
-                      <img src="/projects/project1.png" alt="project three" />
+                      <Image
+                        src="/projects/project1.png"
+                        alt="project three"
+                        width={800}
+                        height={800}
+                      />
                     </div>
                     <h2>YC Directory - A Startup App</h2>
                   </div>

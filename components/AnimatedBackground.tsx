@@ -106,7 +106,7 @@ const AnimatedBackground = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute inset-0 w-full h-full -z-10 bg-neutral-300/60 dark:bg-neutral-900/90"
+      className="absolute inset-0 w-full h-full -z-10 bg-neutral-300/60 dark:bg-neutral-900/90 transition-opacity from-0% to-100% ease-in-out"
       style={{ opacity: 0.5 }}
     />
   );

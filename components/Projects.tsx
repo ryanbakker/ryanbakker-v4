@@ -6,7 +6,7 @@ import Image from "next/image";
 function Projects() {
   return (
     <section className="dark:bg-neutral-900">
-      <div className="section-container">
+      <div className="section-container pt-20">
         <h3 className="section-heading">
           <span>Projects</span>
           <span>Projects</span>

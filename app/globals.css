@@ -133,6 +133,18 @@
     @apply absolute left-0 bottom-0 uppercase font-bold text-4xl;
   }
 
+  .section-heading-logos {
+    @apply relative flex items-baseline justify-center mt-30;
+  }
+
+  .section-heading-logos span:first-child {
+    @apply text-7xl font-extrabold uppercase text-gray-950/5 dark:text-white/5;
+  }
+
+  .section-heading-logos span:last-child {
+    @apply absolute mx-auto bottom-0 uppercase font-bold text-4xl;
+  }
+
   .featured-projects {
     @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
   }
@@ -324,7 +336,7 @@
   width: 2px;
   border-radius: 100%;
   background: linear-gradient(
-    0deg,
+    90deg,
     rgba(69, 222, 196, 0) 0%,
     #62e0ff 25%,
     #52aeff 37.51%,
@@ -332,7 +344,7 @@
     #6d45ce 92.91%
   );
   background-size: 200% 200%;
-  animation: gradientShift 8s ease-in-out infinite;
+  animation: gradientShift 14s ease-in-out infinite;
 }
 
 @keyframes gradientShift {
@@ -351,5 +363,39 @@
   100% {
     background-position: 0% 0%;
   }
+}
+
+.desktop-nav-link {
+  position: relative;
+}
+
+.desktop-nav-link::before {
+  @apply rounded-full bg-white/50;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.8s ease-in-out;
+}
+
+.desktop-nav-link::after {
+  @apply rounded-full bg-white;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.6s ease-in-out 0.2s;
+}
+
+.desktop-nav-link:hover::before {
+  width: 100%;
+}
+
+.desktop-nav-link:hover::after {
+  width: 100%;
 }
 

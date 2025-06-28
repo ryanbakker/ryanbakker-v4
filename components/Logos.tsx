@@ -28,9 +28,10 @@ const LogoIcon = ({ icon }: LogoIconProps) => {
 function Logos() {
   return (
     <section>
-      <h2 className="text-4xl font-semibold w-full px-5 md:px-20 pt-25 flex items-center justify-center">
-        Experience using
-      </h2>
+      <h3 className="section-heading-logos mb-1">
+        <span>Experience Using</span>
+        <span>Experience Using</span>
+      </h3>
 
       <div className="relative">
         <div className="gradient-edge" />

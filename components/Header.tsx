@@ -9,21 +9,28 @@ function Header() {
         <h2>Ryan Bakker</h2>
       </div>
 
-      <ul className="flex items-center gap-4 md:gap-8">
+      <ul className="flex items-center gap-8 md:gap-10">
         <li>
-          <Link href="/projects">
+          <Link href="/projects" className="desktop-nav-link">
             <FolderCode size={20} />
             Projects
           </Link>
         </li>
         <li>
-          <Link href="https://github.com/ryanbakker" target="_blank">
+          <Link
+            href="https://github.com/ryanbakker"
+            target="_blank"
+            className="desktop-nav-link"
+          >
             <Github size={20} />
             GitHub
           </Link>
         </li>
         <li>
-          <Link href="mailto:ryanbakker@outlook.co.nz?subject=Website%20Enquiry">
+          <Link
+            href="mailto:ryanbakker@outlook.co.nz?subject=Website%20Enquiry"
+            className="desktop-nav-link"
+          >
             <MailPlus size={20} />
             Contact
           </Link>

@@ -54,7 +54,7 @@ function About() {
         alt="photo of me under lights"
         width={400}
         height={400}
-        className="mx-auto max-w-[100vw] md:w-[40vw] rounded-lg shadow-lg my-8"
+        className="mx-auto max-w-[100vw] md:w-[40vw] rounded-lg shadow-lg my-8 object-cover"
       />
     </section>
   );

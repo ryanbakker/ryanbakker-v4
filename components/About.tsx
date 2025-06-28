@@ -4,7 +4,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="flex flex-col-reverse md:flex-row">
+    <section className="flex flex-col-reverse md:flex-row pr-8">
       <div className="section-container flex-col">
         <h3 className="section-heading">
           <span>About me</span>
@@ -54,7 +54,7 @@ function About() {
         alt="photo of me under lights"
         width={400}
         height={400}
-        className="mx-auto max-w-[100vw] md:w-[40vw] rounded-lg shadow-lg m-8"
+        className="mx-auto max-w-[100vw] md:w-[40vw] rounded-lg shadow-lg my-8"
       />
     </section>
   );

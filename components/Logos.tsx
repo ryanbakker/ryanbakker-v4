@@ -18,7 +18,7 @@ const LogoIcon = ({ icon }: LogoIconProps) => {
           width={250}
           height={20}
           className="object-contain max-h-[60px] saturate-0 invert"
-          style={{ maxWidth: "600px" }}
+          style={{ maxWidth: "400px" }}
         />
       </div>
     </div>

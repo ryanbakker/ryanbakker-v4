@@ -25,8 +25,8 @@ function Projects() {
                     <Image
                       src="/projects/project1.png"
                       alt="project one"
-                      width={800}
-                      height={800}
+                      width={500}
+                      height={500}
                     />
                   </div>
                   <div className="text-content">
@@ -53,8 +53,8 @@ function Projects() {
                       <Image
                         src="/projects/project1.png"
                         alt="project two"
-                        width={800}
-                        height={800}
+                        width={500}
+                        height={500}
                       />
                     </div>
                     <h2>Library Management Platform</h2>
@@ -70,8 +70,8 @@ function Projects() {
                       <Image
                         src="/projects/project1.png"
                         alt="project three"
-                        width={800}
-                        height={800}
+                        width={500}
+                        height={500}
                       />
                     </div>
                     <h2>YC Directory - A Startup App</h2>

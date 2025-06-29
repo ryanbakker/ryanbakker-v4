@@ -21,22 +21,26 @@ function Projects() {
                   href="/"
                   className="hover:scale-[1.006] transition-transform"
                 >
-                  <div className="image-wrapper">
-                    <Image
-                      src="/projects/project1.png"
-                      alt="project one"
-                      width={500}
-                      height={500}
-                    />
+                  <div className="project">
+                    <div className="image-wrapper bg-neutral-800 rounded-lg">
+                      <Image
+                        src="/projects/project-one.png"
+                        alt="project one"
+                        width={800}
+                        height={800}
+                        className="!object-contain !py-5"
+                      />
+                    </div>
                   </div>
                   <div className="text-content">
                     <h2>
-                      On-Demand Rides Made Simple with a Powerful, User-Friendly
-                      App called Ryde
+                      TimeIt - Task manager for students to keep track of their
+                      studies and take notes
                     </h2>
                     <p className="text-white md:text-xl">
-                      An app built with React Native, Expo, & TailwindCSS for a
-                      fast, user-friendly experience.
+                      An app built with Next.js 14 combined with the security
+                      using Clerk Authentication and Shadcn for responsive
+                      design.
                     </p>
                   </div>
                 </Link>
@@ -51,13 +55,15 @@ function Projects() {
                   <div className="project">
                     <div className="image-wrapper bg-neutral-800">
                       <Image
-                        src="/projects/project1.png"
+                        src="/projects/project-two.png"
                         alt="project two"
                         width={500}
                         height={500}
                       />
                     </div>
-                    <h2>Library Management Platform</h2>
+                    <h2>
+                      Shifter - Manage, Share & Explore Car Community Meetups
+                    </h2>
                   </div>
                 </Link>
 
@@ -68,13 +74,13 @@ function Projects() {
                   <div className="project">
                     <div className="image-wrapper bg-neutral-800">
                       <Image
-                        src="/projects/project1.png"
+                        src="/projects/project-three.png"
                         alt="project three"
                         width={500}
                         height={500}
                       />
                     </div>
-                    <h2>YC Directory - A Startup App</h2>
+                    <h2>ePass - Event Management & Ticket Purchasing</h2>
                   </div>
                 </Link>
               </div>

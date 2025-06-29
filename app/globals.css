@@ -211,6 +211,10 @@
   @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
 }
 
+.image-wrapper {
+  @apply p-5;
+}
+
 .app-showcase .project-list-wrapper img {
   @apply w-full h-full object-contain rounded-xl;
 }

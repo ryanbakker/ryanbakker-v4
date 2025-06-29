@@ -37,8 +37,8 @@ const AnimatedBackground = () => {
         this.color = color;
 
         // ! Change end number to adjust speed
-        this.vx = (Math.random() - 0.5) * 4;
-        this.vy = (Math.random() - 0.5) * 4;
+        this.vx = (Math.random() - 0.5) * 2;
+        this.vy = (Math.random() - 0.5) * 2;
       }
 
       update() {

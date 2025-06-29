@@ -321,7 +321,7 @@
 }
 
 .timeline {
-  @apply absolute z-30 h-[110%] -top-10 w-14 md:w-28 bg-gray-950;
+  @apply absolute z-0 h-[110%] -top-10 w-14 md:w-28 bg-gray-950;
 }
 
 .timeline-logo {
@@ -370,7 +370,7 @@
 }
 
 .desktop-nav-link::before {
-  @apply rounded-full bg-white/50;
+  @apply rounded-full bg-white/30;
   position: absolute;
   content: "";
   height: 2px;
